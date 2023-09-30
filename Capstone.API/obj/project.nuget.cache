@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "I4pdV1wSRnTy7J4NUwUuAflkpInAFjafTpulaiy6yfFVP8lGPuYrLE3gON1iHGN9Mx2csXFG79kWcoSAmIQp+g==",
+  "success": true,
+  "projectFilePath": "D:\\FULearning\\FALL2023\\Capstone\\BE_Capstone_FALL23\\Capstone.API\\Capstone.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\phanl\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\phanl\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\phanl\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\phanl\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\phanl\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\phanl\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

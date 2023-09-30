@@ -1,0 +1,148 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\FULearning\\FALL2023\\Capstone\\BE_Capstone_FALL23\\Capstone.DataAccess\\Capstone.DataAccess.csproj": {}
+  },
+  "projects": {
+    "D:\\FULearning\\FALL2023\\Capstone\\BE_Capstone_FALL23\\Capstone.Common\\Capstone.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\FULearning\\FALL2023\\Capstone\\BE_Capstone_FALL23\\Capstone.Common\\Capstone.Common.csproj",
+        "projectName": "Capstone.Common",
+        "projectPath": "D:\\FULearning\\FALL2023\\Capstone\\BE_Capstone_FALL23\\Capstone.Common\\Capstone.Common.csproj",
+        "packagesPath": "C:\\Users\\phanl\\.nuget\\packages\\",
+        "outputPath": "D:\\FULearning\\FALL2023\\Capstone\\BE_Capstone_FALL23\\Capstone.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\phanl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\FULearning\\FALL2023\\Capstone\\BE_Capstone_FALL23\\Capstone.DataAccess\\Capstone.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\FULearning\\FALL2023\\Capstone\\BE_Capstone_FALL23\\Capstone.DataAccess\\Capstone.DataAccess.csproj",
+        "projectName": "Capstone.DataAccess",
+        "projectPath": "D:\\FULearning\\FALL2023\\Capstone\\BE_Capstone_FALL23\\Capstone.DataAccess\\Capstone.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\phanl\\.nuget\\packages\\",
+        "outputPath": "D:\\FULearning\\FALL2023\\Capstone\\BE_Capstone_FALL23\\Capstone.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\phanl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\FULearning\\FALL2023\\Capstone\\BE_Capstone_FALL23\\Capstone.Common\\Capstone.Common.csproj": {
+                "projectPath": "D:\\FULearning\\FALL2023\\Capstone\\BE_Capstone_FALL23\\Capstone.Common\\Capstone.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
