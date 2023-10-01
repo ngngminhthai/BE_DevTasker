@@ -1,7 +1,10 @@
-﻿namespace Capstone.DataAccess.Entities
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Capstone.DataAccess.Entities
 {
     public class PermissionSchema
     {
+        [Key]
         public Guid SchemaId { get; set; }
         public string SchemaName { get; set; }
         public string Description { get; set; }

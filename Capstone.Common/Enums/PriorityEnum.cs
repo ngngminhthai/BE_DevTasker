@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace Capstone.Common.Enums
 {
-    public enum TaskStatusEnum
+    public enum PriorityEnum
     {
-        New = 0,
-        Todo = 1,
-        InProgress = 2,
-        Done = -1
+        High = 0,
+        Low = 2, 
+        Medium = 1
     }
 }
