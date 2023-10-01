@@ -2,12 +2,12 @@
 
 namespace Capstone.DataAccess.Entities
 {
-    public class PriorityLevel
+    public class TicketStatus
     {
         [Key]
-        public Guid LevelId { get; set; }
-        public int Level { get; set; }
+        public Guid StatusId { get; set; }
         public string Title { get; set; }
         public List<Ticket> Tickets { get; set; }
+        public List<TicketHistory> TaskHistories { get; set; }
     }
 }

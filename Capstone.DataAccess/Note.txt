@@ -1,0 +1,12 @@
+﻿To run migration to your database:
+
+1. Change connection string in appsettings.json 
+
+2. Open Package Manager Console
+
+3. Run migration:
+add-migration CreateEntityMigration -context CapstoneContext -o Migrations
+
+4. Update migration:
+update-database
+
