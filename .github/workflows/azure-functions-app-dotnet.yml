@@ -15,6 +15,7 @@ jobs:
   build:
     runs-on: windows-latest
     steps:
+    - name: Check out code
     - uses: actions/checkout@v3
 
     - name: Set up .NET Core
@@ -23,13 +24,16 @@ jobs:
          dotnet-version: '6.0.x'
          include-prerelease: true
     - name: Restore
-      run: dotnet restore ./Capstone.API.sln
+      run: dotnet restore
       
     - name: Build with dotnet
-      run: dotnet build ./Capstone.API.sln --configuration Release --no-restore
+      run: dotnet build -c Release --no-restore
       
+    - name: Run automated tets
+    - run: dotnet test -c Release --no-buid
+    
     - name: dotnet publish
-      run: dotnet publish ./Capstone.API.sln --configuration Release --no-build
+      run: dotnet publish -c Release -o .
       
           
   deploy:
