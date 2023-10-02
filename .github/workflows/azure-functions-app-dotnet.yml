@@ -16,25 +16,25 @@ jobs:
     runs-on: windows-latest
     steps:
     - name: Check out code
-    - uses: actions/checkout@v3
+      uses: actions/checkout@v3
 
-    - name: Set up .NET Core
+    - name: Set up .NET 6
       uses: actions/setup-dotnet@v3
       with:
          dotnet-version: '6.0.x'
          include-prerelease: true
          
     - name: Restore
-    - run: dotnet restore
+      run: dotnet restore
       
     - name: Build with dotnet
-    - run: dotnet build -c Release --no-restore
+      run: dotnet build -c Release --no-restore
       
     - name: Run automated tets
-    - run: dotnet test -c Release --no-buid
+      run: dotnet test -c Release --no-build
     
     - name: dotnet publish
-    - run: dotnet publish -c Release -o .
+      run: dotnet publish -c Release -o ./out
           
   deploy:
       runs-on: windows-latest
