@@ -9,6 +9,4 @@ namespace Capstone.DataAccess.Repository.Implements
         {
         }
     }
-    {
-    }
 }
