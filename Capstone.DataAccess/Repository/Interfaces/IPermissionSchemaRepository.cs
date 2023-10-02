@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Capstone.DataAccess.Entities;
+using static System.Reflection.Metadata.BlobBuilder;
 
 namespace Capstone.DataAccess.Repository.Interfaces
 {
-    internal class IPermissionSchemaRepository
+    public interface IPermissionSchemaRepository : IBaseRepository<PermissionSchema>
     {
     }
 }
