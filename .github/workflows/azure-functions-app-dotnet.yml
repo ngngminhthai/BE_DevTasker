@@ -37,7 +37,6 @@ jobs:
       needs: build
 
       steps:
-
         - name: Deploy to Azure Web App
           id: deploy-to-webapp
           uses: azure/webapps-deploy@v2
@@ -45,4 +44,4 @@ jobs:
             app-name: ${{ env.AZURE_WEBAPP_NAME }}
             slot-name: 'Production'
             publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
-            package: "${{ env.AZURE_WEBAPP_PACKAGE_PATH }}"
+            package: .
