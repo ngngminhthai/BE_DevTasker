@@ -25,10 +25,10 @@ jobs:
          include-prerelease: true
          
     - name: Restore
-      run: dotnet restore
+    - run: dotnet restore
       
     - name: Build with dotnet
-      run: dotnet build -c Release --no-restore
+    - run: dotnet build -c Release --no-restore
       
     - name: Run automated tets
     - run: dotnet test -c Release --no-buid
