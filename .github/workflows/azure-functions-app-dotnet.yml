@@ -29,20 +29,12 @@ jobs:
       run: dotnet build ./Capstone.API.sln --configuration Release --no-restore
       
     - name: dotnet publish
-      run: dotnet publish ./Capstone.API.sln --configuration --no-build
+      run: dotnet publish ./Capstone.API.sln --configuration Release --no-build
       
-    - name: Upload artifact for deployment job
-      uses: actions/upload-artifact@v2
-      with:
-          name: .net-app
-          path: ${{env.DOTNET_ROOT}}/myapp
           
   deploy:
       runs-on: windows-latest
       needs: build
-      environment:
-        name: 'Production'
-        url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
 
       steps:
         - name: Download artifact from build job
